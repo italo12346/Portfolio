@@ -264,3 +264,16 @@ body {
 .sidebar.active .toolipe {
     display: none;
 }
+
+/*-- Home-- */
+
+.homeContent{
+    
+    text-align: center;
+    background-color: #070606dc;
+    height: 50%;
+    width: 100%;
+    font-family: monospace;
+    color: #fff;
+    
+}

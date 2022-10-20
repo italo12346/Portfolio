@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./imagens/ISS-logo.png" type="image/x-icon">
     <link rel="stylesheet" href="/CSS/style.css">
+
     <script defer src="./javascript/script.js"></script>
     <!-- Box Icons -->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
@@ -14,7 +15,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/style.css">
     <title>Portfólio</title>
 </head>
 <body>
@@ -85,7 +85,7 @@
                     </div>
                 </div>
                 <!-- profileDetail -->
-                <i class='bx bx-log-out' id="logout" ></i>
+                
             </div>
             <!-- profile -->
         </div>
@@ -94,26 +94,18 @@
     <!-- sidebar -->
 
     <div class="homeContent">
-        <h2>Home</h2>
+       
+            <header>
+                <div class="img-wrapper">
+                <img src="">
+                </div>
+                <div class="banner">
+                <h1>Desenvolvedor Web</h1>
+                <p>Italo Souza Sampaio</p>
+                <a href="https://github.com/italo12346" target="_blank"><button>Saiba mais</button></a>
+                </div>
+            </header>
     </div>
 
-    <script>
-        // variáveis
-        const btn = document.querySelector('#btn');
-        const bxSearch = document.querySelector('.bx-search');
-        const sidebar = document.querySelector('.sidebar');
-        const home = document.querySelector('.homeContent');
-
-        // Eventos de escuta do click
-        btn.addEventListener('click',()=>{
-            sidebar.classList.toggle('active');
-            home.classList.toggle('active');
-        });
-
-        bxSearch.addEventListener('click',()=>{
-            sidebar.classList.toggle('active');
-            home.classList.toggle('active');
-        });
-    </script>
 </body>
 </html>
